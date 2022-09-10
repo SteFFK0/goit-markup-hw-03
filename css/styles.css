@@ -4,6 +4,11 @@
 --text-active-color: #2196F3;
 --background-color: #FFFFFF;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary-color);
@@ -11,6 +16,7 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+
 .header {
     background-color: var(--background-color);
 }
