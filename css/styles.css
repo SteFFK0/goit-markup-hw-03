@@ -4,11 +4,8 @@
 --text-active-color: #2196F3;
 --background-color: #FFFFFF;
 }
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
+/* Теги */
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary-color);
@@ -16,12 +13,29 @@ body {
     font-style: normal;
     font-weight: 400;
 }
-
-.header {
-    background-color: var(--background-color);
+h1,
+h2, 
+h3, 
+p, 
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
 }
 
-/* Навігація */
+/* Глобальні класи */
+.container {
+    width: 1200px;
+}
+
+/* Хедер */
+.header {
+    background-color: var(--background-color);
+    border: 1px solid #ECECEC;
+    outline: 1px solid orange;
+}
 .logo-part {
     color: var(--text-active-color);
 }
@@ -33,6 +47,7 @@ body {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    outline: 1px solid orange;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -51,6 +66,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-primary-color);
+    outline: 1px solid blue;
 }
 .nav-contacts {
     color: var(--text-secondary-color);
@@ -60,6 +76,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-secondary-color);
+    outline: 1px solid green;
 }
 
 /* Кнопки */
@@ -87,6 +104,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 /* Футер */
 .logo-footer {
     font-family: 'Raleway';
@@ -99,6 +117,7 @@ body {
 }
 .address {
     background-color: #2F303A;
+    outline: 1px solid green;
 }
 .phisical-address {
     font-size: 14px;
@@ -106,6 +125,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--background-color);
+    outline: 1px solid green;
 }
 .contacts-footer {
     font-size: 14px;
@@ -113,12 +133,14 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    outline: 1px solid green;
 }
 .contact-address {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--background-color);
+    outline: 1px solid red;
 }
 
 /* index.html */
@@ -130,27 +152,32 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: var(--background-color);
+    outline: 1px solid green;
 }
 .main-section {
     background-color: #2F303A;
+    outline: 1px solid tomato;
 }
 .secondary-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    outline: 1px solid green;
 }
 .sub-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    outline: 1px solid green;
 }
 .paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
+    outline: 1px solid green;
 }
 .team-member {
     font-weight: 500;
@@ -158,6 +185,7 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    outline: 1px solid green;
 }
 .team-position {
     font-size: 16px;
@@ -165,6 +193,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
+    outline: 1px solid green;
 }
 
 /* portfolio.html */
@@ -174,13 +203,12 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-primary-color)
+    outline: 1px solid green;
 }
 .product-category {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
-}
-ul {
-    list-style: none;
+    outline: 1px solid green;
 }
