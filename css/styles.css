@@ -26,6 +26,7 @@ ul {
 }
 nav {
     display: flex;
+        align-items: center;
 }
 
 /* Глобальні класи */
@@ -44,9 +45,12 @@ nav {
 .nav-list {
     display: flex;
     align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .contact-list {
     display: flex;
+    margin-left: auto;
 }
 .list:not(:last-child) {
     margin-right: 50px;
@@ -55,6 +59,7 @@ nav {
     color: var(--text-active-color);
 }
 .logo {
+    margin-right: 93px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -75,7 +80,6 @@ nav {
     color: var(--text-active-color);
 }
 .nav-link {
-    /* margin-right: 50px; */
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -85,7 +89,6 @@ nav {
     outline: 1px solid blue;
 }
 .nav-contacts {
-    /* margin-right: 50px; */
     color: var(--text-secondary-color);
     text-decoration: none;
     font-weight: 500;
