@@ -27,9 +27,7 @@ ul {
 nav {
     display: flex;
 }
-nav > .nav-list:last-child {
-    margin-right: 0;
-}
+
 /* Глобальні класи */
 .container {
     width: 1200px;
@@ -50,9 +48,9 @@ nav > .nav-list:last-child {
 .contact-list {
     display: flex;
 }
-/* .nav-list:not(:last-child) {
+.list:not(:last-child) {
     margin-right: 50px;
-} */
+}
 .logo-part {
     color: var(--text-active-color);
 }
@@ -77,7 +75,7 @@ nav > .nav-list:last-child {
     color: var(--text-active-color);
 }
 .nav-link {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -87,7 +85,7 @@ nav > .nav-list:last-child {
     outline: 1px solid blue;
 }
 .nav-contacts {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     color: var(--text-secondary-color);
     text-decoration: none;
     font-weight: 500;
