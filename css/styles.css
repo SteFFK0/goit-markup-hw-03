@@ -1,8 +1,8 @@
 :root {
---text-primary-color: #212121;
---text-secondary-color: #757575;
---text-active-color: #2196F3;
---background-color: #FFFFFF;
+    --text-primary-color: #212121;
+    --text-secondary-color: #757575;
+    --text-active-color: #2196F3;
+    --background-color: #FFFFFF;
 }
 
 /* Теги */
@@ -13,17 +13,20 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+
 h1,
-h2, 
-h3, 
-p, 
+h2,
+h3,
+p,
 ul {
     margin: 0;
     padding: 0;
 }
+
 ul {
     list-style: none;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -42,22 +45,27 @@ nav {
     border: 1px solid #ECECEC;
     outline: 1px solid orange;
 }
+
 .nav-list {
     display: flex;
     align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
 .contact-list {
     display: flex;
     margin-left: auto;
 }
+
 .list:not(:last-child) {
     margin-right: 50px;
 }
+
 .logo-part {
     color: var(--text-active-color);
 }
+
 .logo {
     margin-right: 93px;
     font-family: 'Raleway';
@@ -69,16 +77,19 @@ nav {
     text-decoration: none;
     outline: 1px solid orange;
 }
+
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
     color: var(--text-active-color);
 }
+
 .nav-contacts:hover,
 .nav-contacts:focus,
 .contacts-footer:hover,
 .contacts-footer:focus {
     color: var(--text-active-color);
 }
+
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -88,6 +99,7 @@ nav {
     color: var(--text-primary-color);
     outline: 1px solid blue;
 }
+
 .nav-contacts {
     color: var(--text-secondary-color);
     text-decoration: none;
@@ -105,6 +117,7 @@ nav {
     background-color: var(--text-active-color);
     color: var(--background-color);
 }
+
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
@@ -113,6 +126,7 @@ nav {
     color: var(--text-primary-color);
     cursor: pointer;
 }
+
 .button-order {
     font-family: 'Roboto';
     background-color: var(--text-active-color);
@@ -135,10 +149,12 @@ nav {
     color: var(--background-color);
     text-decoration: none;
 }
+
 .address {
     background-color: #2F303A;
     outline: 1px solid green;
 }
+
 .phisical-address {
     font-size: 14px;
     font-style: normal;
@@ -147,6 +163,7 @@ nav {
     color: var(--background-color);
     outline: 1px solid green;
 }
+
 .contacts-footer {
     font-size: 14px;
     line-height: 1.7;
@@ -155,6 +172,7 @@ nav {
     color: rgba(255, 255, 255, 0.6);
     outline: 1px solid green;
 }
+
 .contact-address {
     font-size: 14px;
     line-height: 1.7;
@@ -168,6 +186,7 @@ nav {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .main-title {
     font-weight: 900;
     font-size: 44px;
@@ -177,11 +196,13 @@ nav {
     color: var(--background-color);
     outline: 1px solid green;
 }
+
 .main-section {
     background-color: #2F303A;
     outline: 1px solid tomato;
     text-align: center;
 }
+
 .secondary-title {
     font-weight: 700;
     font-size: 36px;
@@ -189,6 +210,7 @@ nav {
     letter-spacing: 0.03em;
     outline: 1px solid green;
 }
+
 .sub-title {
     font-weight: 700;
     font-size: 14px;
@@ -196,6 +218,7 @@ nav {
     letter-spacing: 0.03em;
     outline: 1px solid green;
 }
+
 .paragraph {
     font-size: 14px;
     line-height: 1.71;
@@ -203,6 +226,7 @@ nav {
     color: var(--text-secondary-color);
     outline: 1px solid green;
 }
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
@@ -211,6 +235,7 @@ nav {
     letter-spacing: 0.03em;
     outline: 1px solid green;
 }
+
 .team-position {
     font-size: 16px;
     line-height: 1.19;
@@ -224,14 +249,15 @@ nav {
 .portfolio-list {
     border: 1px solid #EEEEEE;
 }
+
 .products {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--text-primary-color)
-    outline: 1px solid green;
+    color: var(--text-primary-color) outline: 1px solid green;
 }
+
 .product-category {
     font-size: 16px;
     line-height: 1.88;
