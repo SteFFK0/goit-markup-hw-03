@@ -7,6 +7,7 @@
 
 /* Теги */
 body {
+    width: 1600px;
     font-family: 'Roboto', sans-serif;
     color: var(--text-primary-color);
     background: #F5F5F5;
@@ -35,12 +36,17 @@ nav {
 /* Глобальні класи */
 .container {
     width: 1200px;
+    outline: 1px solid yellow;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 /* Хедер */
 .header {
-    display: flex;
-    align-items: center;
     background-color: var(--background-color);
     border: 1px solid #ECECEC;
     outline: 1px solid orange;
@@ -128,6 +134,9 @@ nav {
 }
 
 .button-order {
+    margin-top: 30px;
+    margin-bottom: 106px;
+    padding: 10px 32px;
     font-family: 'Roboto';
     background-color: var(--text-active-color);
     color: var(--background-color);
@@ -188,6 +197,10 @@ nav {
 }
 
 .main-title {
+    margin-top: 106px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
