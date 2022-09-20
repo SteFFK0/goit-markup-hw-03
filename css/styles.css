@@ -126,12 +126,16 @@ nav {
 
 .button-portfolio {
     margin-bottom: 56px;
+    margin-right: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
     color: var(--text-primary-color);
     cursor: pointer;
+}
+.button-portfolio:not(:last-child) {
+    margin-right: 0;
 }
 
 .button-order {
@@ -247,6 +251,10 @@ nav {
 }
 .advantage-list {
     display: flex;
+    justify-content: center;
+}
+.advantage-item {
+    width: 270px;
 }
 .advantage-item:not(:last-child) {
     margin-right: 30px;
@@ -284,6 +292,10 @@ nav {
     display: flex;
 }
 /* portfolio.html */
+.filter {
+    display: flex;
+    justify-content: center;
+}
 .portfolio-list {
     border: 1px solid #EEEEEE;
     margin-right: 30px;
