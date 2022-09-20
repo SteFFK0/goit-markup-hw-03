@@ -125,6 +125,7 @@ nav {
 }
 
 .button-portfolio {
+    margin-bottom: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -285,6 +286,10 @@ nav {
 /* portfolio.html */
 .portfolio-list {
     border: 1px solid #EEEEEE;
+    margin-right: 30px;
+}
+.portfolio-list:nth-child(3n) {
+    margin-right: 0;
 }
 
 .products {
@@ -301,4 +306,9 @@ nav {
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
     outline: 1px solid green;
+}
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }

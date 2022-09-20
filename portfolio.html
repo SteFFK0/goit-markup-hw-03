@@ -23,75 +23,85 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <nav>
-        <a href="" class="logo"><span class="logo-part">Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html" class="nav-link">Студія</a></li>
-          <li><a href="" class="nav-link">Портфоліо</a></li>
-          <li><a href="" class="nav-link">Контакти</a></li>
+      <div class="flex container">
+        <nav>
+          <a href="" class="logo"><span class="logo-part">Web</span>Studio</a>
+          <ul class="nav-list">
+            <li class="list"><a href="./index.html" class="nav-link">Студія</a></li>
+            <li class="list"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+            <li class="list"><a href="" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-list">
+          <li class="list">
+            <a href="mailto:info@devstudio.com" class="nav-contacts">info@devstudio.com</a>
+          </li>
+          <li class="list">
+            <a href="tel:+380961111111" class="nav-contacts">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="nav-contacts">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="nav-contacts">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <!-- Кнопки навігації -->
-      <h1>Фільтр</h1>
-      <button type="button" class="button-portfolio">Усі</button>
-      <button type="button" class="button-portfolio">Веб-сайти</button>
-      <button type="button" class="button-portfolio">Додатки</button>
-      <button type="button" class="button-portfolio">Дизайн</button>
-      <button type="button" class="button-portfolio">Маркетинг</button>
-      <!-- Список з фільтрами -->
-      <ul>
-        <li class="" portfolio-list>
-          <img src="./img/portfolio1.jpg" alt="Веб-сайт" width="370" height="294" />
-          <h2 class="products">Технокряк</h2>
-          <p class="product-category">Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./img/portfolio2.jpg" alt="Дизайн" width="370" height="294" />
-          <h2 class="products">Постер New Orlean vs Golden Star</h2>
-          <p class="product-category">Дизайн</p>
-        </li>
-        <li>
-          <img src="./img/portfolio3.jpg" alt="Додаток" width="370" height="294" />
-          <h2 class="products">Ресторан Seafood</h2>
-          <p class="product-category">Додаток</p>
-        </li>
-        <li>
-          <img src="./img/portfolio4.jpg" alt="Маркетинг" width="370" height="294" />
-          <h2 class="products">Проєкт Prime</h2>
-          <p class="product-category">Маркетинг</p>
-        </li>
-        <li>
-          <img src="./img/portfolio5.jpg" alt="Додаток" width="370" height="294" />
-          <h2 class="products">Проєкт Boxes</h2>
-          <p class="product-category">Додаток</p>
-        </li>
-        <li>
-          <img src="./img/portfolio6.jpg" alt="Веб-сайт" width="370" height="294" />
-          <h2 class="products">Inspiration has no Borders</h2>
-          <p class="product-category">Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./img/portfolio7.jpg" alt="Дизайн" width="370" height="294" />
-          <h2 class="products">Видання Limited Edition</h2>
-          <p class="product-category">Дизайн</p>
-        </li>
-        <li>
-          <img src="./img/portfolio8.jpg" alt="Маркетинг" width="370" height="294" />
-          <h2 class="products">Проєкт LAB</h2>
-          <p class="product-category">Маркетинг</p>
-        </li>
-        <li>
-          <img src="./img/portfolio9.jpg" alt="Додаток" width="370" height="294" />
-          <h2 class="products">Growing Business</h2>
-          <p class="product-category">Додаток</p>
-        </li>
-      </ul>
+      <section class="section">
+        <div class="container">
+          <!-- Кнопки навігації -->
+          <h1 hidden>Фільтр</h1>
+          <button type="button" class="button-portfolio">Усі</button>
+          <button type="button" class="button-portfolio">Веб-сайти</button>
+          <button type="button" class="button-portfolio">Додатки</button>
+          <button type="button" class="button-portfolio">Дизайн</button>
+          <button type="button" class="button-portfolio">Маркетинг</button>
+          <!-- Список з фільтрами -->
+          <ul class="filter-list">
+            <li class="portfolio-list">
+              <img src="./img/portfolio1.jpg" alt="Веб-сайт" width="370" height="294" />
+              <h2 class="products">Технокряк</h2>
+              <p class="product-category">Веб-сайт</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio2.jpg" alt="Дизайн" width="370" height="294" />
+              <h2 class="products">Постер New Orlean vs Golden Star</h2>
+              <p class="product-category">Дизайн</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio3.jpg" alt="Додаток" width="370" height="294" />
+              <h2 class="products">Ресторан Seafood</h2>
+              <p class="product-category">Додаток</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio4.jpg" alt="Маркетинг" width="370" height="294" />
+              <h2 class="products">Проєкт Prime</h2>
+              <p class="product-category">Маркетинг</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio5.jpg" alt="Додаток" width="370" height="294" />
+              <h2 class="products">Проєкт Boxes</h2>
+              <p class="product-category">Додаток</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio6.jpg" alt="Веб-сайт" width="370" height="294" />
+              <h2 class="products">Inspiration has no Borders</h2>
+              <p class="product-category">Веб-сайт</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio7.jpg" alt="Дизайн" width="370" height="294" />
+              <h2 class="products">Видання Limited Edition</h2>
+              <p class="product-category">Дизайн</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio8.jpg" alt="Маркетинг" width="370" height="294" />
+              <h2 class="products">Проєкт LAB</h2>
+              <p class="product-category">Маркетинг</p>
+            </li>
+            <li class="portfolio-list">
+              <img src="./img/portfolio9.jpg" alt="Додаток" width="370" height="294" />
+              <h2 class="products">Growing Business</h2>
+              <p class="product-category">Додаток</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="address">
