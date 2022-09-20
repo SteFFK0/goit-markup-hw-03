@@ -217,14 +217,17 @@ nav {
 }
 
 .secondary-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     outline: 1px solid green;
+    text-align: center;
 }
 
 .sub-title {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -256,6 +259,13 @@ nav {
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
     outline: 1px solid green;
+}
+.our-samples {
+    display: flex;
+    justify-content:center;
+}
+.sample-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* portfolio.html */
