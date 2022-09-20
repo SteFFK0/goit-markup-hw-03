@@ -234,7 +234,9 @@ nav {
     letter-spacing: 0.03em;
     outline: 1px solid green;
 }
-
+.section-margin {
+    padding-bottom: 0;
+}
 .paragraph {
     font-size: 14px;
     line-height: 1.71;
@@ -242,8 +244,15 @@ nav {
     color: var(--text-secondary-color);
     outline: 1px solid green;
 }
+.advantage-list {
+    display: flex;
+}
+.advantage-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .team-member {
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -253,6 +262,8 @@ nav {
 }
 
 .team-position {
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -268,6 +279,9 @@ nav {
     margin-right: 30px;
 }
 
+.team-list {
+    display: flex;
+}
 /* portfolio.html */
 .portfolio-list {
     border: 1px solid #EEEEEE;
