@@ -34,6 +34,8 @@ nav {
 }
 
 footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #2F303A;
 }
 /* Глобальні класи */
@@ -158,6 +160,7 @@ footer {
 
 /* Футер */
 .logo-footer {
+    /* margin-bottom: 20px; */
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -181,6 +184,7 @@ footer {
 }
 
 .contacts-footer {
+    /* margin-top: 9px; */
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
