@@ -160,7 +160,8 @@ footer {
 
 /* Футер */
 .logo-footer {
-    /* margin-bottom: 20px; */
+    display: block;
+    margin-bottom: 20px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -168,10 +169,14 @@ footer {
     letter-spacing: 0.03em;
     color: var(--background-color);
     text-decoration: none;
+    outline: 1px solid blue;
 }
 
 .address {
     outline: 1px solid green;
+}
+.address-list:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .phisical-address {
