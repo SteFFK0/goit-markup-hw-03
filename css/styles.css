@@ -311,6 +311,7 @@ border-radius: 0px 0px 4px 4px;
     justify-content: center;
 }
 .portfolio-list {
+        flex-basis: calc((100% - 60px) / 3);
     border: 1px solid #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -341,5 +342,6 @@ border-radius: 0px 0px 4px 4px;
 .filter-list {
     display: flex;
     flex-wrap: wrap;
+
     justify-content:center;
 }
